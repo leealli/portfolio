@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio Intro Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<style>
+    	@font-face {
+  		font-family: "Outfit", sans-serif;
+    } body {
+        background-color: #F5EEDF;
+    } #page {
+        width: 950px;
+        height: 1224px;
+        background: white;
+        margin: 0 auto;
+        padding: 48px;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+    } h1 {
+        font: 48pt/1.0em 'Outfit';
+		font-weight: 500;
+        text-align: center;
+		margin-bottom: 30px;
+	} h2 {
+        font: 20pt/1.0em 'Outfit';
+		font-weight: 400;
+        text-align: center;
+		margin-bottom: 50px;
+    } p {
+		font: 16pt/1.4em Outfit
+	} .navbar {
+  	display: flex;
+	justify-content: center;
+  	gap: 16px;
+  	padding: 20px;
+/* Button styling */
+	} .nav-btn {
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  background: #F9F0E4;
+  color: black;
+  font: 12pt/1.0em 'Outfit';
+  font-size: 14px;
+  transition: transform 0.2s ease, background 0.2s ease;
+/* Hover effect */
+	} .nav-btn:hover {
+  background: #CBC0B1;
+  transform: scale(1.05);
+	} .introvid {
+		width: 100%;
+ 		max-width: 100%;
+  		height: auto;
+  		aspect-ratio: 16 / 9;
+  		display: block;
+  		margin: 40px auto;
+  		box-shadow: 2px 4px 7px dimgray;
+  		border-radius: 16px;
+  		overflow: hidden;
+</style>	
+	
+</head>
+
+<body>
+<div id="page">
+<h1>Hi! I'm Allison</h1>
+<h2>Welcome to my portfolio</h2>
+<nav class="navbar">
+  <a href="index.html" class="nav-btn">Home</a>
+  <a href="portfolio.html" class="nav-btn">Works</a>
+</nav>
+	
+<video class="introvid" controls muted playsinline poster="Black Grey Mono Handwriting Logo Film Video Reel Vlog YouTube Channel Art Banner.png">
+    <source src="0205.mp4" type="video/mp4">
+</video>
+
+</div>
+</body>
+</html>
