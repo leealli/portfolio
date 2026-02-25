@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio with Table</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    	@font-face {
+  		font-family: "Outfit", sans-serif;
+    } body {
+        background-color: #F5EEDF;
+    } #page {
+        width: 950px;
+        height: 1224px;
+        background: white;
+        margin: 0 auto;
+        padding: 48px;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+    } h1 {
+        font: 48pt/1.0em 'Outfit';
+		font-weight: 500;
+        text-align: center;
+		margin-bottom: 30px;
+    } p {
+		font: 16pt/1.4em Outfit
+	} .navbar {
+  		display: flex;
+		justify-content: center;
+  		gap: 16px;
+  		padding: 20px;
+/* Button styling */
+	} .nav-btn {
+ 		text-decoration: none;
+  		padding: 10px 18px;
+  		border-radius: 20px;
+  		background: #F9F0E4;
+  		color: black;
+  		font: 12pt/1.0em 'Outfit';
+  		font-size: 14px;
+  		transition: transform 0.2s ease, background 0.2s ease;
+/* Hover effect */
+	} .nav-btn:hover {
+  		background: #CBC0B1;
+  		transform: scale(1.05);
+	} .styled-table {
+ 		width: 100%;
+		margin: 0 auto;
+		margin-top: 30px;
+  		font-family: Outfit;
+		box-shadow: 1px 2px 5px gray;
+	} .styled-table th {
+  		background-color: #f4f4f4;
+  		text-align: left;
+  		padding: 12px;
+	} .styled-table td {
+  		padding: 12px;
+  		border-bottom: 1px solid #ddd;
+	} .small {
+		width: 400px;
+		text-align: left;
+	}
+</style>	
+
+<body>
+<div id="page">
+<h1>Table of Works</h1>
+<nav class="navbar">
+  <a href="index.html" class="nav-btn">Home</a>
+  <a href="portfolio.html" class="nav-btn">Works</a>
+  <a href="portfoliotable.html" class="nav-btn">Table of Works</a>
+</nav>
+
+<table class="styled-table">
+<tr>
+    <th>Work</th>
+    <th class="small">Date Created</th>
+  </tr>
+  <tr>
+    <td>Personal Photo Replication - Digital Painting</td>
+    <td>Sept. 2025</td>
+  </tr>
+  <tr>
+    <td>Ichi Pair Blind Box</td>
+    <td>May 2025</td>
+  </tr>
+ <tr>
+    <td>Tour Promotional Poster</td>
+    <td>Jan. 2025</td>
+  </tr>
+ <tr>
+    <td>Rebirth - Gouache Painting</td>
+    <td>Jan. 2022</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
